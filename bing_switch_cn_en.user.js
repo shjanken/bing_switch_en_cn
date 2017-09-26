@@ -1,8 +1,8 @@
 ﻿// ==UserScript==
-// @name         Bing搜索自动切换国内版和国际版
+// @name         AutoSwitchCNENInBing
 // @namespace    com.github.shjanken
 // @version      0.1
-// @description  在使用 bing 搜索时，如果输入的全部是英文，则自动切换到英文搜索，反之则切换国内版
+// @description  Auto switch en cn with bing
 // @author       janken.wang@hotmail.com
 // @match        https://cn.bing.com/*
 // @grant        none
