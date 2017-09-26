@@ -1,8 +1,8 @@
-// ==UserScript==
-// @name         BingËÑË÷×Ô¶¯ÇĞ»»¹úÄÚ°æºÍ¹ú¼Ê°æ
+ï»¿// ==UserScript==
+// @name         Bingæœç´¢è‡ªåŠ¨åˆ‡æ¢å›½å†…ç‰ˆå’Œå›½é™…ç‰ˆ
 // @namespace    com.github.shjanken
 // @version      0.1
-// @description  ÔÚÊ¹ÓÃ bing ËÑË÷Ê±£¬Èç¹ûÊäÈëµÄÈ«²¿ÊÇÓ¢ÎÄ£¬Ôò×Ô¶¯ÇĞ»»µ½Ó¢ÎÄËÑË÷£¬·´Ö®ÔòÇĞ»»¹úÄÚ°æ
+// @description  åœ¨ä½¿ç”¨ bing æœç´¢æ—¶ï¼Œå¦‚æœè¾“å…¥çš„å…¨éƒ¨æ˜¯è‹±æ–‡ï¼Œåˆ™è‡ªåŠ¨åˆ‡æ¢åˆ°è‹±æ–‡æœç´¢ï¼Œåä¹‹åˆ™åˆ‡æ¢å›½å†…ç‰ˆ
 // @author       janken.wang@hotmail.com
 // @match        https://cn.bing.com/*
 // @grant        none
@@ -16,7 +16,7 @@
 	if(tip) {
             var tipText = tip.innerText;
             if(tipText &&
-               (tipText.includes('¹úÄÚ°æ') ||  tipText.includes('¹ú¼Ê°æ'))) {
+               (tipText.includes('å›½å†…ç‰ˆ') ||  tipText.includes('å›½é™…ç‰ˆ'))) {
                 tip.click();
             }
         }
