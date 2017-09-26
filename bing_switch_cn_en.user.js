@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Auto switch en cn with bing
 // @author       janken.wang@hotmail.com
-// @match        https://cn.bing.com/*
+// @match        https://*.bing.com/*
 // @grant        none
 // ==/UserScript==
 
